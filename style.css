@@ -79,9 +79,9 @@
 }
 .tab1{
     background-color: lightblue;
-    margin: 3rem;
+    margin: 3rem 1rem;
     border-radius: 2rem;
-    max-width: 375px;
+    width: 100%;
     
     
 }

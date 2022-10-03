@@ -1,0 +1,125 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+.container {
+    max-width: 1120px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+.btn {
+    all: unset;
+    display: inline-block;
+    white-space: nowrap;
+    border-radius: 10em;
+    cursor: pointer;
+    text-decoration: none;
+}
+.nav-top {
+    background-color: #0084FD;
+    height: 4.7rem;
+}
+.nav-top .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+.nav-top ul {
+    display: none;
+}
+.nav-top .hamburger {
+    color: white;
+    font-size: 1.5rem;
+}
+@media screen and (min-width: 811px) {
+    .nav-top ul {
+        display: flex;
+        align-items: center;
+        height: 100%;
+        list-style: none;
+    }
+    
+    .nav-top li {
+        display: flex;
+        align-items: center;
+        height: 100%;
+    }
+    
+    .nav-top .nav-link {
+        display: flex;
+        align-items: center;
+        height: 100%;
+        padding: 0 1rem;
+        text-decoration: none;
+        color: white;
+    }
+    
+    /* .nav-top .nav-link:visited {
+        color: white;
+    } */
+    
+    .nav-top .nav-link:hover {
+        background-color: aquamarine;
+    }
+    
+    .nav-top .btn {
+        background-color: white;
+        padding: .5rem;
+    }
+    
+    .nav-top .btn:hover {
+        background-color: lightgray;
+    }
+    .hamburger {
+        display: none;
+    }
+}
+.tab1{
+    background-color: lightblue;
+    margin: 3rem;
+    border-radius: 2rem;
+    max-width: 375px;
+    
+    
+}
+.title1{
+    color: #0084FD;
+    font-size: 1.2em;
+    margin: auto;
+    text-align:center;
+   padding-top: 2rem;
+   justify-content: center;
+   align-items: center;
+
+}
+.testo1{
+    margin: 0 2.5rem;
+    line-height: 2em;
+}
+.btn1{
+    font-size: 1rem;
+    color: white;
+    background-color:#0084FD ;
+    border-radius: 2rem;
+    padding:0.5rem 5rem;
+    margin: 2.5rem;
+    border-color: #0084FD;
+    word-spacing: 0.4em;
+}
+.img1{
+    width:90%;
+    justify-content: center;
+    
+}
+.cont-img1{
+    margin: 0 2rem;
+    
+}
+.testo2{
+    text-align: center;
+    line-height: 2em;
+    padding: 2rem;
+}

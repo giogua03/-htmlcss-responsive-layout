@@ -8,6 +8,7 @@
     max-width: 1120px;
     margin: 0 auto;
     padding: 0 1rem;
+    
 }
 .btn {
     all: unset;
@@ -20,7 +21,7 @@
 .nav-top {
     background-color: #0084FD;
     height: 4.7rem;
-    width: 100%;
+    max-width: 100%;
 }
 .nav-top .container {
     display: flex;
@@ -157,7 +158,7 @@
 .tab2{
     background-color:white;
     border-radius: 2rem;
-    margin: 1rem;
+    margin: 0.5rem;
     display: flex;
     flex-direction: column;
 }
@@ -174,8 +175,8 @@
     background-color: blueviolet;
     margin: 2rem;
     border-radius: 2rem;
-    padding:0.5rem 5rem;
     color: white;
+    padding:5% 20%;
 }
 @media  screen and (min-width:500px) {
     .bg-purple .container{
@@ -183,10 +184,23 @@
         flex-direction:row;
         flex-wrap: wrap;
         gap: 1rem;
-        
+        justify-content: center;
     }
     .tab2{
-        width: calc(( 100 / 3 ) - 2rem)
+        width: calc(( 100% / 2 ) - 2rem);
     }
 }
+@media  screen and (min-width:850px) {
+    .bg-purple .container{
+        display: flex;
+        flex-direction:row;
+        flex-wrap: wrap;
+        gap: 1rem;
+        justify-content: center;
+    }
+    .tab2{
+        width: calc(( 100% / 3 ) - 2rem);
+    }
+}
+    
     

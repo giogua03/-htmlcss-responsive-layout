@@ -186,7 +186,7 @@
         
     }
     .tab2{
-        width: 30%;
+        width: calc(( 100 / 3 )  - 2rem)
     }
 }
     
